@@ -13,7 +13,12 @@ export const routes: Routes = [
 
             {
                 path: 'search',
-                loadComponent: () => import('./gifs/pages/dashboard-page/dashboard-page'),
+                loadComponent: () => import('./gifs/pages/search-page/search-page'),
+            },
+
+            {
+                path: 'history/:query',
+                loadComponent: () => import('./gifs/pages/gif-history/gif-history'),
             },
 
             {
