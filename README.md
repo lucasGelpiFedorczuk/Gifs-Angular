@@ -2,6 +2,10 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.10.
 
+## Url
+
+https://gifspagelg.netlify.app/dashboard/trending
+
 ## Development server
 
 To start a local development server, run:
